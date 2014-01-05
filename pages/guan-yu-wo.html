@@ -2,7 +2,7 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
-    <title>happycoder</title>
+    <title>关于我</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="">
     <meta name="author" content="dgx">
@@ -85,90 +85,22 @@
     <div class="container-fluid">
       <div class="row">
         <div class="span9" id="content">
-        <div class="article">
-                <h1><a href="/go-ce-shi-fu-gai-lu.html">Go 测试覆盖率</a></h1>
-                <div class="well small"><footer class="post-info">
-<span class="label">Date</span>
-<abbr class="published" title="2014-01-04T00:00:00">
-        <i class="icon-calendar"></i>六 04 一月 2014
-</abbr>
-<span class="label">By</span>
-<a href="/author/dgx.html"><i class="icon-user"></i>dgx</a>
-<span class="label">Category</span>
-<a href="/category/ce-shi.html"><i class="icon-folder-open"></i>测试</a>.
-
-
-</footer><!-- /.post-info --></div>
-                <div class="summary"><blockquote>
-<p>Golang1.2 开始支持测试覆盖率</p>
-</blockquote>
-<pre><code>
-go test -cover -coverprofile myapp.out
-go tool cover -html=myapp.out -o myapp.html 
-</code></pre>
-
-<p>详细参数 可以 go help testflag</p>
-                        <a class="btn primary xsmall" href="/go-ce-shi-fu-gai-lu.html">more ...</a>
-                </div>
-        </div>
-        <hr />
-        <div class="article">
-                <h1><a href="/python-nose-ce-shi-fu-gai-lu.html">python nose 测试覆盖率</a></h1>
-                <div class="well small"><footer class="post-info">
-<span class="label">Date</span>
-<abbr class="published" title="2014-01-04T00:00:00">
-        <i class="icon-calendar"></i>六 04 一月 2014
-</abbr>
-<span class="label">By</span>
-<a href="/author/dgx.html"><i class="icon-user"></i>dgx</a>
-<span class="label">Category</span>
-<a href="/category/ce-shi.html"><i class="icon-folder-open"></i>测试</a>.
-
-
-</footer><!-- /.post-info --></div>
-                <div class="summary"><h1>安装</h1>
-<p>easy_install 
-<pre><code>easy_install nose
-</code></pre>
-Or pip:
-<pre><code>pip install nose
-</code></pre></p>
-<h1>基本功能测试参考</h1>
-<p><a href="http://pythontesting.net/framework/nose/nose-introduction/#example">nose introduction example</a></p>
-<h1>测试覆盖率</h1>
-<blockquote>
-<p>需要安装python-dev 开发包，否则安装会失败</p>
-</blockquote>
-<pre><code>pip install coverage
-</code></pre>
-
-<blockquote>
-<p>nose example 测试生成测试数据
-add.py 
-<pre><code>
-def add(a, b):
-    return a + b</p>
-</blockquote>
-<p></code></pre></p>
-<blockquote>
-<p>test_add.py
-<pre><code>
-import add
-def test_add():
-    assert add.add(3,4) == 7
-</code></pre>
-<pre><code> nosetests --with-coverage --cover-erase --cover-package=add
-</code></pre>
-coverage ...</p></blockquote>
-                        <a class="btn primary xsmall" href="/python-nose-ce-shi-fu-gai-lu.html">more ...</a>
-                </div>
-        </div>
-        <hr />
-
-                <section id="content" class="body">
-                <h1>Pages</h1>
-                        <li><a href="/pages/guan-yu-wo.html">关于我</a></li>
-                </section>
+<section id="content" class="body">
+        <h1 class="entry-title">关于我</h1>
+        <ul>
+<li>
+<p>开发过 vod,iptv,cdn,storage system等.    </p>
+</li>
+<li>
+<p>前端开发的初学者.  </p>
+</li>
+<li>
+<p>目前专注于搜索开发,大数据,nlp等. </p>
+</li>
+</ul>
+<p><a href="https://github.com/duanguoxue">github</a>
+<a href="http://weibo.com/aitimanong">微博</a></p>
+</section>
         </div><!--/span-->
 
                 <div class="span3 well sidebar-nav" id="sidebar">
